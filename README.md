@@ -6,7 +6,6 @@ This is a basic **Inventory Management System** built using **Laravel**, featuri
 - User authentication (login, registration, logout)
 - Role-based access (Admin, User)
 - Inventory management (add, update, delete items)
-- Responsive navbar with Bootstrap 5
 
 ## Prerequisites
 - PHP (>= 7.4)
