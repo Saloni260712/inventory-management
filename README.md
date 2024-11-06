@@ -6,7 +6,6 @@ This is a basic **Inventory Management System** built using **Laravel**, featuri
 - User authentication (login, registration, logout)
 - Role-based access (Admin, User)
 - Inventory management (add, update, delete items)
-- Responsive navbar with Bootstrap 5
 
 ## Prerequisites
 - PHP (>= 7.4)
@@ -66,13 +65,6 @@ Your application will be available at [http://localhost:8000](http://localhost:8
 - `resources/views`: Blade templates.
 - `routes/web.php`: Routes configuration.
 
-## Troubleshooting
-- **Missing `app.name`:** Ensure `config/app.php` has the correct app name.
-- **Mass Assignment Exception:** Add fields to the `$fillable` array in models.
-- **Navbar Toggler Not Working:** Include Bootstrap's JS bundle:
-  ```html
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  ```
 
 ## License
 MIT License.
